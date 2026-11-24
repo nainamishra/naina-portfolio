@@ -229,3 +229,20 @@ button.story-graphic-preview:hover{transform:translateY(-4px);box-shadow:0 18px 
 .page-story .postcard-item figcaption{justify-content:center;text-align:center;font-size:.74rem;white-space:nowrap}
 .page-story .postcard-save-links{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding-top:19px;color:#70635a;font-size:.82rem}
 .page-story .postcard-save-links a{color:#39645b;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+
+/* contact form */
+.page-contact .contact-form-section{margin-top:38px;padding-top:29px;border-top:1px solid #adc5d1}
+.page-contact .contact-form-section .eyebrow{margin:0 0 12px}
+.page-contact .contact-form-section h3{font-size:clamp(1.8rem,3vw,2.3rem);line-height:1.2;margin:0 0 12px}
+.page-contact .contact-form-section>p:not(.eyebrow){font-size:.94rem;line-height:1.7;color:#536b78;margin:0 0 25px}
+.page-contact .portfolio-contact-form{display:grid;gap:19px}
+.page-contact .contact-form-field{display:flex;flex-direction:column;gap:8px;min-width:0}
+.page-contact .contact-form-field label{font-size:.76rem;font-weight:700;letter-spacing:.04em;color:#34546d}
+.page-contact .contact-form-field input,.page-contact .contact-form-field textarea{display:block;width:100%;min-width:0;box-sizing:border-box;border:1px solid #b8cbd2;border-radius:14px;padding:14px 16px;background:#fffdfa;color:#172a3a;font:inherit;font-size:.96rem;line-height:1.5;transition:border-color .2s ease,box-shadow .2s ease}
+.page-contact .contact-form-field textarea{resize:vertical;min-height:130px}
+.page-contact .contact-form-field input::placeholder,.page-contact .contact-form-field textarea::placeholder{color:#72858b;opacity:1}
+.page-contact .contact-form-field input:focus-visible,.page-contact .contact-form-field textarea:focus-visible{outline:2px solid #537e91;outline-offset:2px;border-color:#537e91;box-shadow:0 0 0 4px #537e9117}
+.page-contact .contact-form-submit{justify-self:start;cursor:pointer;border:0;background:#294c66;color:#fff;display:inline-flex;align-items:center;gap:24px;border-radius:999px;padding:15px 25px;font:inherit;font-size:.9rem;font-weight:600;transition:transform .2s ease,background .2s ease}
+.page-contact .contact-form-submit:hover{background:#1a3d55;transform:translateY(-2px)}
+.page-contact .contact-form-submit:focus-visible{outline:2px solid #537e91;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.page-contact .contact-form-submit,.page-contact .contact-form-field input,.page-contact .contact-form-field textarea{transition:none}}
